@@ -1,3 +1,11 @@
+/* ===Global=== */
+a {
+  color: #1d3e79 !important;
+}
+/* ===Colors=== */
+.textPr {
+  color: #1d3e79;
+}
 .navbar-brand {
   width: 80px;
 }
