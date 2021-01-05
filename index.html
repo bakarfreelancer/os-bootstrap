@@ -8,6 +8,7 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
 
     <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <title>The Operating Systems</title>
   </head>
@@ -49,9 +50,9 @@
             </div>
           </nav>
     </header>
-    <section class="recentPosts container my-5">
+    <section class="container my-5">
       <h2 class="display-6 text-uppercase text-center textPr my-4">Recent Posts</h2>
-      <div class="recentPostsSliderWraper">
+      <div>
         <div id="recentPostsSlider" class="carousel slide" data-bs-ride="carousel">
           <ol class="carousel-indicators">
             <li data-bs-target="#recentPostsSlider" data-bs-slide-to="0" class="active"></li>
@@ -67,7 +68,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="resources/images/slider2.jpg" class="d-block w-100" alt="...">
+              <img src="resources/images/slider2slide.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block bg-white rounded textPr">
                 <h5>Second slide label</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -93,11 +94,11 @@
       </div><!--recentPostsSliderWraper-->
     </section><!--recentPosts-->
 
-    <section class="allPostsSection container my-5">
+    <section class="container my-5">
       <h2 class="display-6 text-uppercase text-center my-4 textPr">All Posts</h2>
 
       <div>
-        <ul class="nav nav-tabs" id="allPostsTab" role="tablist">
+        <ul class="nav nav-tabs justify-content-center" id="allPostsTab" role="tablist">
           <li class="nav-item" role="presentation">
             <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="home" aria-selected="true">All</a>
           </li>
@@ -252,6 +253,22 @@
         </div>
       </div><!--Tabs-->
     </section>
+
+    <footer>
+      <div class="footer1 bg-dark text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h6 class="text-uppercase">Follow us</h6>
+              <a href="#" class="text-white"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"   class="text-white"><i class="fab fa-youtube fa-2x"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-instagram-square fa-2x"></i></a>
+            </div>
+          </div><!--col-md-4-->
+        </div><!--row-->
+      </div><!--container-->
+      <div class=" text-white-50 py-2 text-center" style="background-color: #1b1b1b;">Copyright 2021 - TheOperatingSystems.com</div>
+    </footer>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
     <script src="resources/bootstrap/js/bootstrap.bundle.min.js"></script>
