@@ -39,3 +39,12 @@ header {
 .contactText {
   background-color: #e5e5e5;
 }
+
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    width: 50px;
+  }
+  .navSpace {
+    height: 57px;
+  }
+}
