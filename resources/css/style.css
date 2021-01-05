@@ -13,3 +13,29 @@ a {
 .navbar-brand img {
   width: 100%;
 }
+
+/* ==Reusable== */
+.pageHeaderSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url(../images/general-bg.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+.contactHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url(../images/contact-bg.jpg);
+}
+
+/* ==Header== */
+header {
+  box-shadow: 0 0 10px #666;
+}
+.navSpace {
+  height: 84px;
+}
+
+/* ==Contact Page== */
+.contactText {
+  background-color: #e5e5e5;
+}
